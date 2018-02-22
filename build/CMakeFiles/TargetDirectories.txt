@@ -1,0 +1,4 @@
+/home/bundito/projects/IconCleaner/build/CMakeFiles/rebuild_cache.dir
+/home/bundito/projects/IconCleaner/build/CMakeFiles/IconCleaner.dir
+/home/bundito/projects/IconCleaner/build/CMakeFiles/edit_cache.dir
+/home/bundito/projects/IconCleaner/build/CMakeFiles/IconCleaner_autogen.dir

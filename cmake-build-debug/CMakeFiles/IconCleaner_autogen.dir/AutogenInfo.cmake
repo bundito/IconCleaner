@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "/home/bundito/projects/IconCleaner/cmake-build-debug/")
+set(AM_CMAKE_SOURCE_DIR "/home/bundito/projects/IconCleaner/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/bundito/projects/IconCleaner/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/bundito/projects/IconCleaner/cmake-build-debug/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "ON")
+set(AM_BUILD_DIR "/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen")
+set(AM_SOURCES "/home/bundito/projects/IconCleaner/main.cpp;/home/bundito/projects/IconCleaner/icondir.cpp")
+set(AM_HEADERS "")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "/usr/lib/x86_64-linux-gnu/qt5/bin/moc")
+set(AM_QT_UIC_EXECUTABLE )
+set(AM_QT_RCC_EXECUTABLE "/usr/lib/x86_64-linux-gnu/qt5/bin/rcc")
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "KCOREADDONS_LIB;QT_CORE_LIB;QT_DBUS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_WIDGETS_LIB;QT_XML_LIB;_GNU_SOURCE;_LARGEFILE64_SOURCE")
+set(AM_MOC_INCLUDES "/home/bundito/projects/IconCleaner/cmake-build-debug;/home/bundito/projects/IconCleaner;/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/include;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64;/usr/include/x86_64-linux-gnu/qt5/QtQml;/usr/include/x86_64-linux-gnu/qt5/QtNetwork;/usr/include/KF5/KCoreAddons;/usr/include/KF5;/usr/include/KF5/KI18n;/usr/include/KF5/KXmlGui;/usr/include/x86_64-linux-gnu/qt5/QtDBus;/usr/include/x86_64-linux-gnu/qt5/QtXml;/usr/include/KF5/KConfigCore;/usr/include/KF5/KConfigWidgets;/usr/include/KF5/KCodecs;/usr/include/KF5/KWidgetsAddons;/usr/include/KF5/KConfigGui;/usr/include/KF5/KAuth;/usr/include/KF5/KTextWidgets;/usr/include/KF5/SonnetUi;/usr/include/KF5/KPackage;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/c++;-dM;-E;-c;/opt/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP )
+set(AM_UIC_TARGET_OPTIONS )
+set(AM_UIC_OPTIONS_FILES )
+set(AM_UIC_OPTIONS_OPTIONS )
+set(AM_UIC_SEARCH_PATHS )
+# RCC settings
+set(AM_RCC_SOURCES "/home/bundito/projects/IconCleaner/qml.qrc" )
+set(AM_RCC_INPUTS "{/home/bundito/projects/IconCleaner/qtquickcontrols2.conf@LSEP@/home/bundito/projects/IconCleaner/main.qml}")
+set(AM_RCC_OPTIONS_FILES "")
+set(AM_RCC_OPTIONS_OPTIONS "")

@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+be716fdf40383e658dd721497fe73391 CMakeFiles/IconCleaner_autogen
+c62658220ff081f95b53041452e1e387 CMakeFiles/fetch-translations
+44e1d4cbcdfa29d3816346327a20dd74 CMakeFiles/uninstall
+7d771109f60c93585c6f216d67face14 releaseme

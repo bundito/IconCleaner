@@ -1,0 +1,7 @@
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/test.dir
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner.dir
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/fetch-translations.dir
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/uninstall.dir
+/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner_autogen.dir

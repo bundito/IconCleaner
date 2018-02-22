@@ -1,0 +1,37 @@
+/opt/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/bundito/projects/IconCleaner
+-- The following REQUIRED packages have been found:
+
+ * Qt5Gui (required version >= 5.9.1)
+ * Qt5Widgets
+ * Qt5Network (required version >= 5.9.1)
+ * Qt5Qml
+ * Qt5 (required version >= 5.3.0)
+ * KF5CoreAddons (required version >= 5.2.0)
+ * Gettext
+ * PythonInterp
+ * KF5I18n (required version >= 5.2.0)
+ * KF5XmlGui (required version >= 5.2.0)
+ * KF5TextWidgets (required version >= 5.2.0)
+ * KF5ConfigWidgets (required version >= 5.2.0)
+ * ECM (required version >= 1.6.0)
+ * Qt5Core
+ * KF5Package (required version >= 5.2.0)
+ * KF5 (required version >= 5.2.0)
+
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:38 (add_executable):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "IconCleaner" of type "EXECUTABLE" has the following visibility
+  properties set for CXX:
+
+    CXX_VISIBILITY_PRESET
+    VISIBILITY_INLINES_HIDDEN
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/bundito/projects/IconCleaner/cmake-build-debug
