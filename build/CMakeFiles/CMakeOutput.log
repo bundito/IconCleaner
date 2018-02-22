@@ -15,28 +15,28 @@ The CXX compiler identification is GNU, found in "/home/bundito/projects/IconCle
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76ae8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76ae8.dir/build.make CMakeFiles/cmTC_76ae8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_79e9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79e9c.dir/build.make CMakeFiles/cmTC_79e9c.dir/build
 make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76ae8.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_76ae8.dir/testCXXCompiler.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_76ae8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76ae8.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_76ae8.dir/testCXXCompiler.cxx.o  -o cmTC_76ae8 
+Building CXX object CMakeFiles/cmTC_79e9c.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_79e9c.dir/testCXXCompiler.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_79e9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79e9c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_79e9c.dir/testCXXCompiler.cxx.o  -o cmTC_79e9c 
 make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1b7e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f1b7e.dir/build.make CMakeFiles/cmTC_f1b7e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_507f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_507f4.dir/build.make CMakeFiles/cmTC_507f4.dir/build
 make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f1b7e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1b7e.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f1b7e 
+Building CXX object CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_507f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507f4.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_507f4 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -48,9 +48,9 @@ Thread model: posix
 gcc version 7.2.0 (Ubuntu 7.2.0-8ubuntu3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1b7e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWfCO85.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f1b7e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1b7e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_507f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5Vah8W.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_507f4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_507f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
 
 
@@ -58,14 +58,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f1b7e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f1b7e.dir/build.make CMakeFiles/cmTC_f1b7e.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_507f4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_507f4.dir/build.make CMakeFiles/cmTC_507f4.dir/build]
   ignore line: [make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f1b7e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1b7e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f1b7e ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_507f4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507f4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_507f4 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -77,13 +77,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.2.0 (Ubuntu 7.2.0-8ubuntu3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1b7e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWfCO85.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f1b7e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_507f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5Vah8W.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_507f4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccWfCO85.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5Vah8W.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -103,7 +103,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f1b7e] ==> ignore
+    arg [cmTC_507f4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_f1b7e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_507f4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -143,14 +143,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_80329/fast"
-/usr/bin/make -f CMakeFiles/cmTC_80329.dir/build.make CMakeFiles/cmTC_80329.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_52bf3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52bf3.dir/build.make CMakeFiles/cmTC_52bf3.dir/build
 make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_80329.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_80329.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_80329
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80329.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_80329.dir/feature_tests.cxx.o  -o cmTC_80329 
+Building CXX object CMakeFiles/cmTC_52bf3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_52bf3.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_52bf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52bf3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_52bf3.dir/feature_tests.cxx.o  -o cmTC_52bf3 
 make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
 
 
@@ -216,14 +216,14 @@ make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9ad0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9ad0.dir/build.make CMakeFiles/cmTC_b9ad0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_37d46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37d46.dir/build.make CMakeFiles/cmTC_37d46.dir/build
 make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b9ad0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b9ad0.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b9ad0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ad0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b9ad0.dir/feature_tests.cxx.o  -o cmTC_b9ad0 
+Building CXX object CMakeFiles/cmTC_37d46.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_37d46.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_37d46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37d46.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_37d46.dir/feature_tests.cxx.o  -o cmTC_37d46 
 make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
 
 
@@ -289,14 +289,14 @@ make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_883c1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_883c1.dir/build.make CMakeFiles/cmTC_883c1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_511a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_511a6.dir/build.make CMakeFiles/cmTC_511a6.dir/build
 make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_883c1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_883c1.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_883c1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_883c1.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_883c1.dir/feature_tests.cxx.o  -o cmTC_883c1 
+Building CXX object CMakeFiles/cmTC_511a6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_511a6.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_511a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_511a6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_511a6.dir/feature_tests.cxx.o  -o cmTC_511a6 
 make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
 
 
@@ -362,14 +362,14 @@ make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5cf0c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5cf0c.dir/build.make CMakeFiles/cmTC_5cf0c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_db738/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db738.dir/build.make CMakeFiles/cmTC_db738.dir/build
 make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5cf0c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5cf0c.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5cf0c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf0c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5cf0c.dir/feature_tests.cxx.o  -o cmTC_5cf0c 
+Building CXX object CMakeFiles/cmTC_db738.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_db738.dir/feature_tests.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db738.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_db738.dir/feature_tests.cxx.o  -o cmTC_db738 
 make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
 
 
@@ -430,3 +430,70 @@ make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1137b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1137b.dir/build.make CMakeFiles/cmTC_1137b.dir/build
+make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1137b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1137b.dir/CheckSymbolExists.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_1137b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1137b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1137b.dir/CheckSymbolExists.cxx.o  -o cmTC_1137b 
+make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
+
+File /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _OFFT_IS_64BIT succeeded with the following output:
+Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33173/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33173.dir/build.make CMakeFiles/cmTC_33173.dir/build
+make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33173.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -D_OFFT_IS_64BIT   -o CMakeFiles/cmTC_33173.dir/src.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33173
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33173.dir/link.txt --verbose=1
+/usr/bin/c++   -D_OFFT_IS_64BIT    -rdynamic CMakeFiles/cmTC_33173.dir/src.cxx.o  -o cmTC_33173 
+make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/types.h>
+ /* Check that off_t can represent 2**63 - 1 correctly.
+    We can't simply define LARGE_OFF_T to be 9223372036854775807,
+    since some C++ compilers masquerading as C compilers
+    incorrectly reject 9223372036854775807.  */
+#define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+  int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_DATE_TIME succeeded with the following output:
+Change Dir: /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67b6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67b6e.dir/build.make CMakeFiles/cmTC_67b6e.dir/build
+make[1]: Entering directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67b6e.dir/src.cxx.o
+/usr/bin/c++    -std=c++0x -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -DHAVE_DATE_TIME   -Wdate-time -o CMakeFiles/cmTC_67b6e.dir/src.cxx.o -c /home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_67b6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67b6e.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++0x -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -DHAVE_DATE_TIME    -rdynamic CMakeFiles/cmTC_67b6e.dir/src.cxx.o  -o cmTC_67b6e 
+make[1]: Leaving directory '/home/bundito/projects/IconCleaner/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

@@ -24,7 +24,7 @@ ApplicationWindow {
         id: dirCombo
         x: 241
         y: 55
-        width: 600;
+        width: 200;
         model: myModel
     }
 }

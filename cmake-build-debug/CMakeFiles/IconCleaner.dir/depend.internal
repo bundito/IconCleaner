@@ -4,9 +4,9 @@
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o
  /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o
- /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/moc_icondir.cpp
+ /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/moc_comboModel.cpp
  /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/mocs_compilation.cpp
- /home/bundito/projects/IconCleaner/icondir.h
+ /home/bundito/projects/IconCleaner/comboModel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDirIterator
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -77,12 +77,11 @@ CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
-CMakeFiles/IconCleaner.dir/icondir.cpp.o
- /home/bundito/projects/IconCleaner/icondir.cpp
- /home/bundito/projects/IconCleaner/icondir.h
+CMakeFiles/IconCleaner.dir/comboModel.cpp.o
+ /home/bundito/projects/IconCleaner/comboModel.cpp
+ /home/bundito/projects/IconCleaner/comboModel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDirIterator
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QHash
@@ -359,10 +358,11 @@ CMakeFiles/IconCleaner.dir/icondir.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtQml/qtqmlglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtQml/qtqmlversion.h
 CMakeFiles/IconCleaner.dir/main.cpp.o
- /home/bundito/projects/IconCleaner/icondir.h
+ /home/bundito/projects/IconCleaner/comboModel.h
  /home/bundito/projects/IconCleaner/main.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDirIterator
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream

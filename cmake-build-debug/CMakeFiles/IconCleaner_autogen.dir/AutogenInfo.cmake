@@ -5,7 +5,7 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/bundito/projects/IconCleaner/")
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/bundito/projects/IconCleaner/cmake-build-debug/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "ON")
 set(AM_BUILD_DIR "/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen")
-set(AM_SOURCES "/home/bundito/projects/IconCleaner/main.cpp;/home/bundito/projects/IconCleaner/icondir.cpp")
+set(AM_SOURCES "/home/bundito/projects/IconCleaner/main.cpp;/home/bundito/projects/IconCleaner/comboModel.cpp")
 set(AM_HEADERS "")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")

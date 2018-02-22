@@ -81,28 +81,28 @@ CMakeFiles/IconCleaner.dir/main.cpp.o.provides: CMakeFiles/IconCleaner.dir/main.
 CMakeFiles/IconCleaner.dir/main.cpp.o.provides.build: CMakeFiles/IconCleaner.dir/main.cpp.o
 
 
-CMakeFiles/IconCleaner.dir/icondir.cpp.o: CMakeFiles/IconCleaner.dir/flags.make
-CMakeFiles/IconCleaner.dir/icondir.cpp.o: ../icondir.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IconCleaner.dir/icondir.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IconCleaner.dir/icondir.cpp.o -c /home/bundito/projects/IconCleaner/icondir.cpp
+CMakeFiles/IconCleaner.dir/comboModel.cpp.o: CMakeFiles/IconCleaner.dir/flags.make
+CMakeFiles/IconCleaner.dir/comboModel.cpp.o: ../comboModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IconCleaner.dir/comboModel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IconCleaner.dir/comboModel.cpp.o -c /home/bundito/projects/IconCleaner/comboModel.cpp
 
-CMakeFiles/IconCleaner.dir/icondir.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IconCleaner.dir/icondir.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bundito/projects/IconCleaner/icondir.cpp > CMakeFiles/IconCleaner.dir/icondir.cpp.i
+CMakeFiles/IconCleaner.dir/comboModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IconCleaner.dir/comboModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bundito/projects/IconCleaner/comboModel.cpp > CMakeFiles/IconCleaner.dir/comboModel.cpp.i
 
-CMakeFiles/IconCleaner.dir/icondir.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IconCleaner.dir/icondir.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bundito/projects/IconCleaner/icondir.cpp -o CMakeFiles/IconCleaner.dir/icondir.cpp.s
+CMakeFiles/IconCleaner.dir/comboModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IconCleaner.dir/comboModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bundito/projects/IconCleaner/comboModel.cpp -o CMakeFiles/IconCleaner.dir/comboModel.cpp.s
 
-CMakeFiles/IconCleaner.dir/icondir.cpp.o.requires:
+CMakeFiles/IconCleaner.dir/comboModel.cpp.o.requires:
 
-.PHONY : CMakeFiles/IconCleaner.dir/icondir.cpp.o.requires
+.PHONY : CMakeFiles/IconCleaner.dir/comboModel.cpp.o.requires
 
-CMakeFiles/IconCleaner.dir/icondir.cpp.o.provides: CMakeFiles/IconCleaner.dir/icondir.cpp.o.requires
-	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.o.provides.build
-.PHONY : CMakeFiles/IconCleaner.dir/icondir.cpp.o.provides
+CMakeFiles/IconCleaner.dir/comboModel.cpp.o.provides: CMakeFiles/IconCleaner.dir/comboModel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/comboModel.cpp.o.provides.build
+.PHONY : CMakeFiles/IconCleaner.dir/comboModel.cpp.o.provides
 
-CMakeFiles/IconCleaner.dir/icondir.cpp.o.provides.build: CMakeFiles/IconCleaner.dir/icondir.cpp.o
+CMakeFiles/IconCleaner.dir/comboModel.cpp.o.provides.build: CMakeFiles/IconCleaner.dir/comboModel.cpp.o
 
 
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o: CMakeFiles/IconCleaner.dir/flags.make
@@ -156,7 +156,7 @@ CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o.provides
 # Object files for target IconCleaner
 IconCleaner_OBJECTS = \
 "CMakeFiles/IconCleaner.dir/main.cpp.o" \
-"CMakeFiles/IconCleaner.dir/icondir.cpp.o" \
+"CMakeFiles/IconCleaner.dir/comboModel.cpp.o" \
 "CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o"
 
@@ -164,7 +164,7 @@ IconCleaner_OBJECTS = \
 IconCleaner_EXTERNAL_OBJECTS =
 
 IconCleaner: CMakeFiles/IconCleaner.dir/main.cpp.o
-IconCleaner: CMakeFiles/IconCleaner.dir/icondir.cpp.o
+IconCleaner: CMakeFiles/IconCleaner.dir/comboModel.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/build.make
@@ -178,7 +178,7 @@ CMakeFiles/IconCleaner.dir/build: IconCleaner
 .PHONY : CMakeFiles/IconCleaner.dir/build
 
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/main.cpp.o.requires
-CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/icondir.cpp.o.requires
+CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/comboModel.cpp.o.requires
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o.requires
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o.requires
 

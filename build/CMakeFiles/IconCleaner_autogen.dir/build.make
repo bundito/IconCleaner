@@ -53,8 +53,14 @@ CMAKE_BINARY_DIR = /home/bundito/projects/IconCleaner/build
 # Include the progress variables for this target.
 include CMakeFiles/IconCleaner_autogen.dir/progress.make
 
-CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.1
-CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.9.1
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.1
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.9.1
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libKF5CoreAddons.so.5.43.0
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libKF5I18n.so.5.43.0
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libKF5XmlGui.so.5.43.0
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libKF5TextWidgets.so.5.43.0
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libKF5ConfigWidgets.so.5.43.0
+CMakeFiles/IconCleaner_autogen: /usr/lib/x86_64-linux-gnu/libKF5Package.so.5.43.0
 CMakeFiles/IconCleaner_autogen: ../qtquickcontrols2.conf
 CMakeFiles/IconCleaner_autogen: ../main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bundito/projects/IconCleaner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and RCC for target IconCleaner"

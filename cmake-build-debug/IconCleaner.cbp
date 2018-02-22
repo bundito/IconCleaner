@@ -200,10 +200,10 @@
 		<Unit filename="/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/mocs_compilation.cpp">
 			<Option target="IconCleaner"/>
 		</Unit>
-		<Unit filename="/home/bundito/projects/IconCleaner/icondir.cpp">
+		<Unit filename="/home/bundito/projects/IconCleaner/comboModel.cpp">
 			<Option target="IconCleaner"/>
 		</Unit>
-		<Unit filename="/home/bundito/projects/IconCleaner/icondir.h">
+		<Unit filename="/home/bundito/projects/IconCleaner/comboModel.h">
 			<Option target="IconCleaner"/>
 		</Unit>
 		<Unit filename="/home/bundito/projects/IconCleaner/main.cpp">

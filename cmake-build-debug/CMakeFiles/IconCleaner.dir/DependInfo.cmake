@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o"
   "/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/mocs_compilation.cpp" "/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o"
-  "/home/bundito/projects/IconCleaner/icondir.cpp" "/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner.dir/icondir.cpp.o"
+  "/home/bundito/projects/IconCleaner/comboModel.cpp" "/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner.dir/comboModel.cpp.o"
   "/home/bundito/projects/IconCleaner/main.cpp" "/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles/IconCleaner.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

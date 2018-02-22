@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/moc_icondir.cpp
-../../../icondir.h
-/home/bundito/projects/IconCleaner/icondir.h
+/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/moc_comboModel.cpp
+../../../comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -17,34 +17,18 @@ QtCore/qmetatype.h
 /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp
 
 /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_icondir.cpp
-/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/moc_icondir.cpp
+EWIEGA46WW/moc_comboModel.cpp
+/home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/moc_comboModel.cpp
 
-/home/bundito/projects/IconCleaner/icondir.cpp
-icondir.h
-/home/bundito/projects/IconCleaner/icondir.h
-QAbstractListModel
--
+/home/bundito/projects/IconCleaner/comboModel.cpp
+comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
 QQmlContext
--
-QDirIterator
--
-QtCore/QDirIterator
--
-QTextStream
--
-QDir
--
-iostream
--
-QStringList
 -
 QtQml
 -
-qdebug.h
-/home/bundito/projects/IconCleaner/qdebug.h
 
-/home/bundito/projects/IconCleaner/icondir.h
+/home/bundito/projects/IconCleaner/comboModel.h
 QAbstractListModel
 -
 QDirIterator
@@ -67,8 +51,10 @@ QStringList
 -
 QtQml/QQmlContext
 -
-icondir.h
-/home/bundito/projects/IconCleaner/icondir.h
+QFileInfo
+-
+comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel
 qabstractitemmodel.h
@@ -78,13 +64,13 @@ qabstractitemmodel.h
 qbytearray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
-qdir.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDirIterator
 qdiriterator.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdiriterator.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo
+qfileinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 qflags.h

@@ -2,17 +2,10 @@
 // Created by bundito on 2/21/18.
 //
 
-#include "icondir.h"
-#include <QAbstractListModel>
+#include "comboModel.h"
 #include <QQmlContext>
-#include <QDirIterator>
-#include <QtCore/QDirIterator>
-#include <QTextStream>
-#include <QDir>
-#include <iostream>
-#include <QStringList>
 #include <QtQml>
-#include "qdebug.h"
+
 
 ComboBoxModel::ComboBoxModel(QObject *parent) :
     QObject(parent)
@@ -82,4 +75,9 @@ void ComboBoxModel::removeElement(int index)
     {
         qDebug() << m_comboList.at(i);
     }
+}
+
+void ComboBoxModel::indexChanged(int index)
+{
+    qDebug() << m_comboList.at(index);
 }

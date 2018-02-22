@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/bundito/projects/IconCleaner/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,28 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,6 +133,32 @@ IconCleaner: cmake_check_build_system
 IconCleaner/fast:
 	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/build
 .PHONY : IconCleaner/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named fetch-translations
+
+# Build rule for target.
+fetch-translations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fetch-translations
+.PHONY : fetch-translations
+
+# fast build rule for target.
+fetch-translations/fast:
+	$(MAKE) -f CMakeFiles/fetch-translations.dir/build.make CMakeFiles/fetch-translations.dir/build
+.PHONY : fetch-translations/fast
 
 #=============================================================================
 # Target rules for targets named IconCleaner_autogen
@@ -190,6 +227,33 @@ IconCleaner_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.s
 .PHONY : IconCleaner_autogen/mocs_compilation.cpp.s
 
+icondir.o: icondir.cpp.o
+
+.PHONY : icondir.o
+
+# target to build an object file
+icondir.cpp.o:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.o
+.PHONY : icondir.cpp.o
+
+icondir.i: icondir.cpp.i
+
+.PHONY : icondir.i
+
+# target to preprocess a source file
+icondir.cpp.i:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.i
+.PHONY : icondir.cpp.i
+
+icondir.s: icondir.cpp.s
+
+.PHONY : icondir.s
+
+# target to generate assembly for a file
+icondir.cpp.s:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.s
+.PHONY : icondir.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -223,9 +287,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... IconCleaner"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... IconCleaner"
+	@echo "... uninstall"
+	@echo "... rebuild_cache"
+	@echo "... fetch-translations"
 	@echo "... IconCleaner_autogen"
 	@echo "... IconCleaner_autogen/EWIEGA46WW/qrc_qml.o"
 	@echo "... IconCleaner_autogen/EWIEGA46WW/qrc_qml.i"
@@ -233,6 +300,9 @@ help:
 	@echo "... IconCleaner_autogen/mocs_compilation.o"
 	@echo "... IconCleaner_autogen/mocs_compilation.i"
 	@echo "... IconCleaner_autogen/mocs_compilation.s"
+	@echo "... icondir.o"
+	@echo "... icondir.i"
+	@echo "... icondir.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

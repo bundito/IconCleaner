@@ -129,6 +129,7 @@
 #define __FLT32X_HAS_DENORM__ 1
 #define __INT_FAST16_TYPE__ long int
 #define __LDBL_HAS_DENORM__ 1
+#define QT_WIDGETS_LIB 1
 #define __cplusplus 201402L
 #define __cpp_ref_qualifiers 200710
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
@@ -145,6 +146,7 @@
 #define __PTRDIFF_MAX__ 0x7fffffffffffffffL
 #define __amd64 1
 #define __STDC_NO_THREADS__ 1
+#define QT_XML_LIB 1
 #define __ATOMIC_HLE_ACQUIRE 65536
 #define __FLT32_HAS_QUIET_NAN__ 1
 #define __GNUG__ 7
@@ -186,10 +188,10 @@
 #define __VERSION__ "7.2.0"
 #define __UINT64_C(c) c ## UL
 #define __cpp_unicode_characters 200704
+#define QT_DBUS_LIB 1
 #define _STDC_PREDEF_H 1
 #define __cpp_decltype_auto 201304
 #define __GCC_ATOMIC_INT_LOCK_FREE 2
-#define QT_QUICK_LIB 1
 #define __FLT128_MAX_EXP__ 16384
 #define __FLT32_MANT_DIG__ 24
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
@@ -230,6 +232,7 @@
 #define __FLT32X_MIN_EXP__ (-1021)
 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
 #define __INT_FAST16_MAX__ 0x7fffffffffffffffL
+#define KCOREADDONS_LIB 1
 #define __FLT64_DIG__ 15
 #define __UINT_FAST32_MAX__ 0xffffffffffffffffUL
 #define __UINT_LEAST64_TYPE__ long unsigned int
@@ -321,6 +324,7 @@
 #define __FLT64_MAX_EXP__ 1024
 #define __INT_LEAST32_TYPE__ int
 #define __SIZEOF_WCHAR_T__ 4
+#define _LARGEFILE64_SOURCE 1
 #define __FLT128_HAS_QUIET_NAN__ 1
 #define __INT_FAST8_TYPE__ signed char
 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
