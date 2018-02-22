@@ -27,6 +27,8 @@ QQmlContext
 -
 QtQml
 -
+QtDebug
+-
 
 /home/bundito/projects/IconCleaner/comboModel.h
 QAbstractListModel
@@ -36,6 +38,28 @@ QDirIterator
 QTextStream
 -
 QObject
+-
+
+/home/bundito/projects/IconCleaner/dirListModel.cpp
+QtQml
+-
+QString
+-
+QStringList
+-
+QDirIterator
+-
+dirListModel.h
+/home/bundito/projects/IconCleaner/dirListModel.h
+
+/home/bundito/projects/IconCleaner/dirListModel.h
+comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
+QtQml
+-
+QString
+-
+QStringList
 -
 
 /home/bundito/projects/IconCleaner/main.cpp
@@ -55,6 +79,8 @@ QFileInfo
 -
 comboModel.h
 /home/bundito/projects/IconCleaner/comboModel.h
+dirListModel.h
+/home/bundito/projects/IconCleaner/dirListModel.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel
 qabstractitemmodel.h
@@ -467,6 +493,10 @@ qtcoreversion.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QtDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
 QtCore/qobject.h

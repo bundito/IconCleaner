@@ -206,6 +206,12 @@
 		<Unit filename="/home/bundito/projects/IconCleaner/comboModel.h">
 			<Option target="IconCleaner"/>
 		</Unit>
+		<Unit filename="/home/bundito/projects/IconCleaner/dirListModel.cpp">
+			<Option target="IconCleaner"/>
+		</Unit>
+		<Unit filename="/home/bundito/projects/IconCleaner/dirListModel.h">
+			<Option target="IconCleaner"/>
+		</Unit>
 		<Unit filename="/home/bundito/projects/IconCleaner/main.cpp">
 			<Option target="IconCleaner"/>
 		</Unit>

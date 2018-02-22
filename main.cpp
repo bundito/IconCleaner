@@ -6,39 +6,21 @@
 #include <QtQml/QQmlContext>
 #include <QFileInfo>
 #include "comboModel.h"
+#include "dirListModel.h"
 
 int main(int argc, char *argv[])
 {
 
     QApplication app(argc, argv);
-
     QQmlApplicationEngine engine;
     ComboBoxModel combo;
+    DirListModel dirs;
 
-    // fill ComboBoxModel with icon subdirectories
-    QStringList dirs;
-    QString dirName;
-    QString rawDir;
-    QDirIterator iconDirs("/home/bundito/.local/share/icons");
+    dirs.setRootDir(QString("/home/bundito/.local/share/icons"));
+    QStringList iconDirs = dirs.getDirs();
 
-    while (iconDirs.hasNext()) {
-        rawDir = iconDirs.next();
-        dirName = iconDirs.fileName();
-        QFileInfo inf = QFileInfo(rawDir);
-        if (inf.isDir() && dirName != "." && dirName != "..") {
-            dirs.append(dirName);
-        }
-    }
-    dirs.sort();
-    combo.setComboList(dirs);
-
-
-
-
-    //QStringList tmp;
-    //tmp << "1" << "2" << "3" << "4" << "5" << "6" << "7";
-    //combo.setComboList(tmp);
-
+    combo.setComboList(iconDirs);
+    
     QQmlContext *ownContext = engine.rootContext();
     ownContext->setContextProperty("myModel", QVariant::fromValue(combo.comboList()));
 

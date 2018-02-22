@@ -105,9 +105,33 @@ CMakeFiles/IconCleaner.dir/comboModel.cpp.o.provides: CMakeFiles/IconCleaner.dir
 CMakeFiles/IconCleaner.dir/comboModel.cpp.o.provides.build: CMakeFiles/IconCleaner.dir/comboModel.cpp.o
 
 
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.o: CMakeFiles/IconCleaner.dir/flags.make
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.o: ../dirListModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IconCleaner.dir/dirListModel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IconCleaner.dir/dirListModel.cpp.o -c /home/bundito/projects/IconCleaner/dirListModel.cpp
+
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IconCleaner.dir/dirListModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bundito/projects/IconCleaner/dirListModel.cpp > CMakeFiles/IconCleaner.dir/dirListModel.cpp.i
+
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IconCleaner.dir/dirListModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bundito/projects/IconCleaner/dirListModel.cpp -o CMakeFiles/IconCleaner.dir/dirListModel.cpp.s
+
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.requires:
+
+.PHONY : CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.requires
+
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.provides: CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.provides.build
+.PHONY : CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.provides
+
+CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.provides.build: CMakeFiles/IconCleaner.dir/dirListModel.cpp.o
+
+
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o: CMakeFiles/IconCleaner.dir/flags.make
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o: IconCleaner_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o -c /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/mocs_compilation.cpp
 
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o.provides.b
 
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o: CMakeFiles/IconCleaner.dir/flags.make
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o: IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o -c /home/bundito/projects/IconCleaner/cmake-build-debug/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp
 
 CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.i: cmake_force
@@ -157,6 +181,7 @@ CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o.provides
 IconCleaner_OBJECTS = \
 "CMakeFiles/IconCleaner.dir/main.cpp.o" \
 "CMakeFiles/IconCleaner.dir/comboModel.cpp.o" \
+"CMakeFiles/IconCleaner.dir/dirListModel.cpp.o" \
 "CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o"
 
@@ -165,11 +190,12 @@ IconCleaner_EXTERNAL_OBJECTS =
 
 IconCleaner: CMakeFiles/IconCleaner.dir/main.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/comboModel.cpp.o
+IconCleaner: CMakeFiles/IconCleaner.dir/dirListModel.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o
 IconCleaner: CMakeFiles/IconCleaner.dir/build.make
 IconCleaner: CMakeFiles/IconCleaner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable IconCleaner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bundito/projects/IconCleaner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable IconCleaner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IconCleaner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +205,7 @@ CMakeFiles/IconCleaner.dir/build: IconCleaner
 
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/main.cpp.o.requires
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/comboModel.cpp.o.requires
+CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/dirListModel.cpp.o.requires
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o.requires
 CMakeFiles/IconCleaner.dir/requires: CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o.requires
 

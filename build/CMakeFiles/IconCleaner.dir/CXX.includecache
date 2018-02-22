@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/bundito/projects/IconCleaner/build/IconCleaner_autogen/EWIEGA46WW/moc_icondir.cpp
-../../../icondir.h
-/home/bundito/projects/IconCleaner/icondir.h
+/home/bundito/projects/IconCleaner/build/IconCleaner_autogen/EWIEGA46WW/moc_comboModel.cpp
+../../../comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -17,34 +17,20 @@ QtCore/qmetatype.h
 /home/bundito/projects/IconCleaner/build/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp
 
 /home/bundito/projects/IconCleaner/build/IconCleaner_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_icondir.cpp
-/home/bundito/projects/IconCleaner/build/IconCleaner_autogen/EWIEGA46WW/moc_icondir.cpp
+EWIEGA46WW/moc_comboModel.cpp
+/home/bundito/projects/IconCleaner/build/IconCleaner_autogen/EWIEGA46WW/moc_comboModel.cpp
 
-/home/bundito/projects/IconCleaner/icondir.cpp
-icondir.h
-/home/bundito/projects/IconCleaner/icondir.h
-QAbstractListModel
--
+/home/bundito/projects/IconCleaner/comboModel.cpp
+comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
 QQmlContext
--
-QDirIterator
--
-QtCore/QDirIterator
--
-QTextStream
--
-QDir
--
-iostream
--
-QStringList
 -
 QtQml
 -
-qdebug.h
-/home/bundito/projects/IconCleaner/qdebug.h
+QtDebug
+-
 
-/home/bundito/projects/IconCleaner/icondir.h
+/home/bundito/projects/IconCleaner/comboModel.h
 QAbstractListModel
 -
 QDirIterator
@@ -52,6 +38,28 @@ QDirIterator
 QTextStream
 -
 QObject
+-
+
+/home/bundito/projects/IconCleaner/dirListModel.cpp
+QtQml
+-
+QString
+-
+QStringList
+-
+QDirIterator
+-
+dirListModel.h
+/home/bundito/projects/IconCleaner/dirListModel.h
+
+/home/bundito/projects/IconCleaner/dirListModel.h
+comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
+QtQml
+-
+QString
+-
+QStringList
 -
 
 /home/bundito/projects/IconCleaner/main.cpp
@@ -69,8 +77,10 @@ QtQml/QQmlContext
 -
 QFileInfo
 -
-icondir.h
-/home/bundito/projects/IconCleaner/icondir.h
+comboModel.h
+/home/bundito/projects/IconCleaner/comboModel.h
+dirListModel.h
+/home/bundito/projects/IconCleaner/dirListModel.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel
 qabstractitemmodel.h
@@ -79,10 +89,6 @@ qabstractitemmodel.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 qbytearray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
-qdir.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDirIterator
 qdiriterator.h
@@ -487,6 +493,10 @@ qtcoreversion.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QtDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
 QtCore/qobject.h

@@ -28,10 +28,12 @@ public:
     int count();
     void setCount(int cnt);
 
+    Q_INVOKABLE void indexChanged(int index);
+
     Q_INVOKABLE void addElement(const QString &element);
     Q_INVOKABLE void removeElement(int index);
 
-    Q_INVOKABLE void indexChanged(int index);
+
 
 signals:
 

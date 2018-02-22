@@ -35,7 +35,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 
-add_executable(${PROJECT_NAME} "main.cpp" "qml.qrc" "comboModel.cpp")
+add_executable(${PROJECT_NAME} "main.cpp" "qml.qrc" "comboModel.cpp" "dirListModel.cpp")
 
 target_link_libraries(${PROJECT_NAME}
         Qt5::Widgets

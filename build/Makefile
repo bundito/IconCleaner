@@ -227,32 +227,59 @@ IconCleaner_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.s
 .PHONY : IconCleaner_autogen/mocs_compilation.cpp.s
 
-icondir.o: icondir.cpp.o
+comboModel.o: comboModel.cpp.o
 
-.PHONY : icondir.o
+.PHONY : comboModel.o
 
 # target to build an object file
-icondir.cpp.o:
-	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.o
-.PHONY : icondir.cpp.o
+comboModel.cpp.o:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/comboModel.cpp.o
+.PHONY : comboModel.cpp.o
 
-icondir.i: icondir.cpp.i
+comboModel.i: comboModel.cpp.i
 
-.PHONY : icondir.i
+.PHONY : comboModel.i
 
 # target to preprocess a source file
-icondir.cpp.i:
-	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.i
-.PHONY : icondir.cpp.i
+comboModel.cpp.i:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/comboModel.cpp.i
+.PHONY : comboModel.cpp.i
 
-icondir.s: icondir.cpp.s
+comboModel.s: comboModel.cpp.s
 
-.PHONY : icondir.s
+.PHONY : comboModel.s
 
 # target to generate assembly for a file
-icondir.cpp.s:
-	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/icondir.cpp.s
-.PHONY : icondir.cpp.s
+comboModel.cpp.s:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/comboModel.cpp.s
+.PHONY : comboModel.cpp.s
+
+dirListModel.o: dirListModel.cpp.o
+
+.PHONY : dirListModel.o
+
+# target to build an object file
+dirListModel.cpp.o:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.o
+.PHONY : dirListModel.cpp.o
+
+dirListModel.i: dirListModel.cpp.i
+
+.PHONY : dirListModel.i
+
+# target to preprocess a source file
+dirListModel.cpp.i:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.i
+.PHONY : dirListModel.cpp.i
+
+dirListModel.s: dirListModel.cpp.s
+
+.PHONY : dirListModel.s
+
+# target to generate assembly for a file
+dirListModel.cpp.s:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.s
+.PHONY : dirListModel.cpp.s
 
 main.o: main.cpp.o
 
@@ -300,9 +327,12 @@ help:
 	@echo "... IconCleaner_autogen/mocs_compilation.o"
 	@echo "... IconCleaner_autogen/mocs_compilation.i"
 	@echo "... IconCleaner_autogen/mocs_compilation.s"
-	@echo "... icondir.o"
-	@echo "... icondir.i"
-	@echo "... icondir.s"
+	@echo "... comboModel.o"
+	@echo "... comboModel.i"
+	@echo "... comboModel.s"
+	@echo "... dirListModel.o"
+	@echo "... dirListModel.i"
+	@echo "... dirListModel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

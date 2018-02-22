@@ -5,6 +5,7 @@
 #include "comboModel.h"
 #include <QQmlContext>
 #include <QtQml>
+#include <QtDebug>
 
 
 ComboBoxModel::ComboBoxModel(QObject *parent) :

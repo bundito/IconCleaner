@@ -254,6 +254,33 @@ comboModel.cpp.s:
 	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/comboModel.cpp.s
 .PHONY : comboModel.cpp.s
 
+dirListModel.o: dirListModel.cpp.o
+
+.PHONY : dirListModel.o
+
+# target to build an object file
+dirListModel.cpp.o:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.o
+.PHONY : dirListModel.cpp.o
+
+dirListModel.i: dirListModel.cpp.i
+
+.PHONY : dirListModel.i
+
+# target to preprocess a source file
+dirListModel.cpp.i:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.i
+.PHONY : dirListModel.cpp.i
+
+dirListModel.s: dirListModel.cpp.s
+
+.PHONY : dirListModel.s
+
+# target to generate assembly for a file
+dirListModel.cpp.s:
+	$(MAKE) -f CMakeFiles/IconCleaner.dir/build.make CMakeFiles/IconCleaner.dir/dirListModel.cpp.s
+.PHONY : dirListModel.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -303,6 +330,9 @@ help:
 	@echo "... comboModel.o"
 	@echo "... comboModel.i"
 	@echo "... comboModel.s"
+	@echo "... dirListModel.o"
+	@echo "... dirListModel.i"
+	@echo "... dirListModel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

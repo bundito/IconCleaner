@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/IconCleaner_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/IconCleaner.dir/main.cpp.o"
   "CMakeFiles/IconCleaner.dir/comboModel.cpp.o"
+  "CMakeFiles/IconCleaner.dir/dirListModel.cpp.o"
   "CMakeFiles/IconCleaner.dir/IconCleaner_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/IconCleaner.dir/IconCleaner_autogen/EWIEGA46WW/qrc_qml.cpp.o"
   "IconCleaner.pdb"
